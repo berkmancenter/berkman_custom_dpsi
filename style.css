@@ -1,0 +1,288 @@
+/*
+ Theme Name:   Digital Problem-Solving Initiative Theme
+ Description:  A Berkman-custom theme for DPSI
+ Author:       Justin Clark
+ Template:     twentythirteen
+ Version:      1.0.0
+*/
+
+/*
+For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet, use the following line where twentyfourteen is the name of the directory where the theme resides:
+
+@import url("../twentyfourteen/style.css");
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+@import url("../twentythirteen/style.css");
+
+/* General things */
+html,body {
+  background-color: white;
+}
+#page {
+  background-color: #ECECEC;
+  border: 1px dotted #ccc;
+  border-width: 0 1px 1px;
+}
+
+#main {
+  padding-top: 14px;
+}
+
+.site {
+  max-width: 1040px;
+}
+
+button, input, textarea {
+  border: 2px solid #CCCCCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro";
+}
+
+/* Title block */
+.site-title {
+  text-align: center;
+  position: relative;
+  top: 45px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.site-header .site-title:hover {
+  text-decoration: none;
+}
+
+.site-header .home-link {
+  min-height: 160px;
+}
+
+/* Blog posts */
+
+.sidebar article.post {
+  max-width: 920px;
+  margin: 0 376px 40px 60px;
+  padding: 0;
+}
+.sidebar .archive-header {
+  max-width: 920px;
+  margin: 0 376px 14px 60px;
+  padding: 0;
+}
+.sidebar .archive-header h1 {
+  background-color: #474747;
+  color: white;
+  padding: 15px 20px;
+  border: 1px solid #9a1d06;
+  border-width: 0 0 0 10px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.entry-top-block {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.edit-link {
+  float: right;
+}
+
+.entry-bottom-block {
+  background-color: #d1d1d1;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.entry-bottom-block footer.entry-meta {
+  padding: 0;
+}
+
+.entry-bottom-block .entry-meta a {
+  color: #666;
+}
+
+.entry-bottom-block div.entry-meta, .entry-bottom-block div.comments-link {
+  padding: 0;
+  display: inline-block;
+  width: auto;
+}
+
+.entry-bottom-block div.comments-link {
+  float: right;
+}
+
+.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
+  padding: 0 60px;
+}
+
+.entry-header {
+  margin: 20px 0;
+}
+
+.entry-title {
+  font-size: 2em;
+}
+
+/* Nav bar */
+
+.navbar {
+  background-color: #474747;
+}
+
+.main-navigation {
+  clear: both;
+  margin: 0 auto;
+  min-height: 60px;
+}
+
+.nav-menu li a {
+  color: white;
+  font-size: 22px;
+  padding: 19px 14px;
+  text-transform: lowercase;
+}
+
+.menu-blocks {
+  float: left;
+  padding-right: 6px;
+}
+
+.main-navigation {
+  clear: right;
+}
+
+#menu-nav > li:after a {
+  content: "|";
+  color: white;
+  font-size: 30px;
+}
+#menu-nav > li:last-child:after a {
+  content: "";
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+  color: white;
+  font-style: normal;
+}
+
+.nav-menu .current_page_item, .nav-menu .current_page_ancestor, .nav-menu .current-menu-item, .nav-menu .current-menu-ancestor {
+  background-color: #868686;
+}
+
+.site-header .search-form {
+  top: 8px;
+}
+
+.site-header .search-field:focus {
+  border-color: #c4c4c4;
+}
+.site-header .search-field {
+  background-color: #fff;
+  cursor: text;
+  border: 2px solid #c4c4c4;
+  outline: 0;
+  width: 230px;
+}
+
+/* Widget things */
+
+.widget {
+  background-color: transparent;
+  font-size: 14px;
+  margin: 0 0 24px;
+  padding: 20px;
+}
+
+.widget .widget-title {
+  font: 700 normal 24px "Source Sans Pro", Helvetica, sans-serif;
+  margin: 0 0 10px;
+}
+
+.site-main .widget-area {
+  margin-right: 60px;
+}
+
+.site-main .sidebar-container {
+  top: 0px;
+}
+
+/* Tags */
+.tagcloud a {
+  display: inline-block;
+  margin: 4px 3px;
+  background-color: #f76a55;
+  color: white;
+  padding: 6px 10px;
+  font-size: 1.2em !important;
+}
+.tagcloud a:hover {
+  color: white;
+}
+
+/* Pages */
+.page .entry-header {
+  margin-bottom: 14px;
+}
+
+.page .entry-title {
+  background-color: #474747;
+  color: white;
+  padding: 15px 20px;
+  border: 1px solid #9a1d06;
+  border-width: 0 0 0 10px;
+}
+
+.page article.page {
+  padding-top: 0;
+}
+
+.page article.page header {
+  margin-top: 0;
+}
+
+.page article .entry-content {
+  background-color: white;
+  padding: 10px 40px;
+  margin: 0 60px;
+  max-width: 918px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: white;
+  padding: 10px 20px;
+}
+.site-info {
+  padding: 0px;
+}
+
+#menu-footer {
+  list-style: none;
+}
+
+#menu-footer li {
+  display: inline-block;
+}
+
+#menu-footer a:after {
+  content: " |";
+  padding: 0 3px;
+}
+
+#menu-footer li:last-child a:after {
+  content: "";
+}
+
+#menu-footer a {
+  text-transform: lowercase;
+  color: #aaa;
+}
+
+.menu-footer-container {
+  float: right;
+}
