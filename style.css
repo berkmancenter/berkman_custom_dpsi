@@ -142,6 +142,9 @@ li p:last-child {
 
 /* Nav bar */
 
+#navbar {
+  z-index: 100;
+}
 .navbar {
   background-color: #474747;
 }

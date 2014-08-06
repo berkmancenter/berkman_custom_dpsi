@@ -60,4 +60,13 @@ function add_secure_video_options($html) {
     return $html;
   }
 }
+function enqueue_scripts() {
+	wp_enqueue_script(
+		'stickup',
+		get_stylesheet_directory_uri() . '/stickUp.min.js',
+		array( 'jquery' )
+	);
+}
+
+add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
 add_filter('the_content', 'add_secure_video_options', 10);

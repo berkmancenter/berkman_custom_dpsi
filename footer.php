@@ -24,5 +24,13 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+  <script>
+    jQuery(function($) {
+      $(document).ready( function() {
+        //enabling stickUp on the '.navbar-wrapper' class
+        jQuery('#navbar').stickUp();
+      });
+    });
+  </script>
 </body>
 </html>
