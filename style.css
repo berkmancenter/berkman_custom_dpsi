@@ -252,6 +252,11 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 918px;
 }
 
+/* Videos */
+.format-video {
+  background-color: #5ac4bd;
+}
+
 /* Footer */
 .site-footer {
   background-color: white;
