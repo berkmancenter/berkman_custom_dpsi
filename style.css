@@ -222,16 +222,25 @@ li p:last-child {
 }
 
 /* Tags */
-.tagcloud a {
+.widget_categories ul.children li.cat-item {
   display: inline-block;
   margin: 4px 3px;
   background-color: #f76a55;
-  color: white;
   padding: 6px 10px;
-  font-size: 1.2em !important;
+  font-size: 0.8em;
 }
-.tagcloud a:hover {
+.widget_categories > ul > li > a {
+  font-size: 1.2em;
+}
+.widget_categories ul.children {
+  margin-left: 0;
+}
+.widget_categories ul.children li.cat-item a {
   color: white;
+}
+/* Uncategorized */
+.cat-item-1 {
+  display: none;
 }
 
 /* Pages */
