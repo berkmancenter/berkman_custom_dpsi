@@ -270,6 +270,19 @@ article.post.format-video {
   color: #141412;
 }
 
+/* Gallery */
+.format-gallery {
+  background-color: white;
+}
+.format-gallery .entry-meta {
+  background-color: #d1d1d1;
+  margin-top: 0px;
+  padding: 10px 20px;
+}
+.format-gallery .entry-meta a, .format-gallery .entry-content a {
+  color: #666;
+}
+
 /* Footer */
 .site-footer {
   background-color: white;
