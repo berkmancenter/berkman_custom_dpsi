@@ -325,3 +325,7 @@ article.post.format-video {
 .menu-footer-container {
   float: right;
 }
+
+#berkman-footer-links {
+  display: none;
+}
