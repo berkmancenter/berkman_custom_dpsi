@@ -19,6 +19,7 @@ For older themes, and themes that do not use wp_enqueue_style() to enqueue their
 /* General things */
 html,body {
   background-color: white;
+  font-size: 15px;
 }
 #page {
   background-color: #ECECEC;
@@ -81,6 +82,13 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 0 0 0 10px;
   font-weight: normal;
   font-style: normal;
+}
+
+.sidebar #content .entry-header,
+.sidebar #content .entry-content,
+.sidebar #content .entry-summary,
+.sidebar #content footer.entry-meta {
+  padding: 0 45px;
 }
 
 .entry-top-block {
@@ -274,7 +282,7 @@ article.post.format-video {
 .format-gallery {
   background-color: white;
 }
-.format-gallery .entry-meta {
+#content .format-gallery footer.entry-meta {
   background-color: #d1d1d1;
   margin-top: 0px;
   padding: 10px 20px;
