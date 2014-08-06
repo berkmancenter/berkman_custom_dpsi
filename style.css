@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   margin: 0 auto;
   min-height: 60px;
+  display: inline-block;
 }
 
 .nav-menu li a {
@@ -156,12 +157,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-blocks {
-  float: left;
   padding-right: 6px;
-}
-
-.main-navigation {
-  clear: right;
+  display: inline-block;
+  float: left;
 }
 
 #menu-nav > li:after a {

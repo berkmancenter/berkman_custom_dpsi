@@ -39,7 +39,7 @@
 			</a>
 
 			<div id="navbar" class="navbar">
-        <img class="menu-blocks" src="<?php echo get_stylesheet_directory_uri() ?>/images/four_square_sm.png"/>
+        <a href="<?php echo get_home_url(); ?>" class="menu-blocks"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/four_square_sm.png"/></a>
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
