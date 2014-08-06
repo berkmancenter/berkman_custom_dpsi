@@ -253,8 +253,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Videos */
-.format-video {
+article.post.format-video {
   background-color: #5ac4bd;
+  padding: 1px 0 16px;
+}
+.format-video .entry-title {
+  font-size: 36px;
+}
+.format-video .entry-meta {
+  margin-top: 10px;
+}
+.format-video .entry-content a,
+.format-video .entry-meta a,
+.format-video .entry-content a:hover,
+.format-video .entry-meta a:hover {
+  color: #141412;
 }
 
 /* Footer */
