@@ -47,7 +47,7 @@
             'theme_location' => 'primary',
             'menu_class' => 'nav-menu',
           ) ); ?>
-					<?php get_search_form(); ?>
+					<?php //get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
