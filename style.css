@@ -18,20 +18,19 @@ For older themes, and themes that do not use wp_enqueue_style() to enqueue their
 
 /* General things */
 html,body {
-  background-color: white;
+  background-color: #DDD;
   font-size: 15px;
 }
 #page {
+  box-shadow: 0 0 7px gray;
   background-color: #ECECEC;
-  border: 1px dotted #ccc;
-  border-width: 0 1px 1px;
 }
 
 #main {
   padding-top: 14px;
 }
 
-.site {
+.site, .navbar {
   max-width: 1040px;
 }
 
