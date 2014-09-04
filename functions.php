@@ -67,6 +67,13 @@ function enqueue_scripts() {
 		array( 'jquery' )
 	);
 }
+function dpsi_body_class( $classes ) {
+  if ( is_page() && ! is_front_page() )
+    unset($classes[array_search('sidebar', $classes)]);
+
+	return $classes;
+}
+add_filter( 'body_class', 'dpsi_body_class', 20 );
 
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
 add_filter('the_content', 'add_secure_video_options', 10);
